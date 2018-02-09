@@ -1,0 +1,105 @@
+@charset "UTF-8";
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.page-title {
+    margin: 60px 0 20px 0;
+}
+
+/* メイン画面CSS */
+.btn.main-btn {
+    border-radius: 15px;
+}
+.col-menu {
+    padding: 10px 5px;
+}
+.col-menu .main-btn {
+    font-size: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 50px 10px!important;
+    height: 150px;
+    max-width: 320px;
+}
+
+/* アップロード画面CSS */
+.upload .page-title {
+    margin: 40px 0;
+}
+#fake-input-file {
+    text-align: center;
+    width: 70%;
+    border: none;
+}
+.upload .big-button {
+    border-radius: 15px;
+    font-size: 30px;
+    width: 100%;
+    padding: 10px 10px!important;
+    height: 120px;
+    max-width: 360px;
+}
+.upload .big-release-button {
+    border-radius: 15px;
+    font-size: 30px;
+    width: 100%;
+    padding: 8px 10px!important;
+    height: 60px;
+    max-width: 280px;
+}
+.upload .big-button-space {
+    margin: 20px 0;
+}
+
+.upload .go-back {
+    margin-top: 50px;
+}
+
+/* ダウンロード画面CSS */
+.download p.licence-message {
+    margin: 30px 0;
+    line-height: 40px;
+}
+
+.download .re-download-message {
+    margin: 70px 0;
+}
+
+.download .re-download-message a {
+    text-decoration: underline;
+}
+
+.download .go-home {
+    margin-top: 150px;
+}
+
+/* エラー画面CSS */
+.error p.error-message {
+    margin: 50px 0;
+    line-height: 40px;
+}
+
+.error .go-home {
+    margin-top: 150px;
+}
+
+/* フッターCSS 
+-------------------------------------------------- */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 50px;
+    background-color: #f5f5f5;
+}
+
+.footer .footer-text {
+    padding-top: 15px;
+}
